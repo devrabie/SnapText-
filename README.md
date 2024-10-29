@@ -1,19 +1,27 @@
-# SnapText-
-SnapText 📷➡️📝 SnapText هو مشروع API قوي لاستخراج النص من الصور المستضافة عبر روابط. يستخدم المشروع مكتبة Tesseract OCR مع FastAPI لتوفير واجهة برمجية سهلة وسريعة لتحويل الصور إلى نصوص.
+# SnapText 📷➡️📝
 
+**SnapText** is a powerful API project designed to extract text from images hosted via URLs. It utilizes the Tesseract OCR library with FastAPI to provide an easy and fast interface for converting images into text.
 
-الميزات ✨
-دعم متعدد اللغات: يمكنه اكتشاف النصوص من الصور بمختلف اللغات.
-اكتشاف تلقائي للغة: يعالج الصور ويكتشف النصوص تلقائيًا دون الحاجة إلى تحديد اللغة.
-سهولة الاستخدام: يتيح لك استخراج النصوص ببساطة عبر إرسال رابط الصورة فقط.
-أداء عالي: يعتمد على FastAPI لضمان استجابة سريعة وموثوقة.
-الاستخدام 🚀
-يمكنك استخدام SnapText لاستخراج النصوص من الصور في تطبيقات مثل:
+### Features ✨
+- **Multilingual Support**: Can detect text from images in various languages.
+- **Automatic Language Detection**: Processes images and detects text automatically without needing a specific language input.
+- **User-Friendly**: Allows you to extract text easily by simply providing the image URL.
+- **High Performance**: Built on FastAPI to ensure fast and reliable responses.
 
-معالجة النصوص من المستندات والصور الرقمية.
-التعرف على النصوص في تطبيقات الفحص والبحث.
-تحليل البيانات من الصور بشكل أوتوماتيكي.
-كيف تبدأ 🛠️
-تثبيت الاعتماديات: قم بتثبيت المكتبات باستخدام pip install -r requirements.txt.
-تشغيل التطبيق: استخدم الأمر uvicorn main:app --reload لتشغيل الخادم.
-استخدام واجهة التوثيق التفاعلية: قم بزيارة /docs لتجربة الـ API مباشرة من خلال المتصفح.
+### Use Cases 🚀
+You can use SnapText to extract text from images in applications such as:
+- **Text processing** from documents and digital images.
+- **Text recognition** in scanning and search applications.
+- **Data analysis** from images in an automated manner.
+
+### Getting Started 🛠️
+1. **Install dependencies**: Install the required libraries using:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Run the application**: Start the server with:
+   ```bash
+   uvicorn main:app --reload
+   ```
+3. **Use the interactive documentation**: Visit `/docs` in your browser to interact with the API directly.
+
